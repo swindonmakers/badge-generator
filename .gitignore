@@ -1,0 +1,6 @@
+*.pdf
+*.aux
+*.tex
+*.log
+
+!logo.pdf
