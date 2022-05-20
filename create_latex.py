@@ -1,6 +1,13 @@
+#!/usr/bin/env python3
+
 import sys
 
 names = sys.argv[1:]
+
+if len(sys.argv) == 1:
+    # Print usage
+    print("Usage: create_latex.py [<size>] <name> [<name> ...] > <output.tex>")
+    exit(1)
 
 # Hacky way of providing a size input
 try:
@@ -43,4 +50,6 @@ print(header)
 for name in names:
     print(badge_entry(name))
 print(footer)
+
+
 
