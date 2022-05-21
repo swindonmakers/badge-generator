@@ -17,8 +17,8 @@ Usage
    # build the file with pdflatex
    pdflatex badges
 
-## Prerequisites:
+Prerequisites:
+---------------
 
 `pdflatex` is provided by the `texlive-latex-base` package, you will need this installed on your system.
 
-"""
